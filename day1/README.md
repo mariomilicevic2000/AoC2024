@@ -1,12 +1,15 @@
-### Day 1: Historian Hysteria
+# Day 1: Historian Hysteria
 
 Tekst zadatka dostupan je ovdje: https://adventofcode.com/2024/day/1
 
 Primjer formata ulaznih podataka:
 
 68878   98732
+
 24519   87903
+
 73275   70114
+
 87985   89419
 
 ## Part 1
@@ -15,7 +18,7 @@ Glavni povjesničar Sjevernog pola je nestao, a skupina starijih povjesničara p
 
 Međutim, postoje dvije različite liste lokacija koje se ne podudaraju. Povjesničari trebaju pronaći način da ih usporede i utvrde koliko se razlikuju. Rješenje ovog problema ključno je za nastavak potrage i spas Božića.
 
-# Rješenje zadatka
+### Rješenje zadatka
 
 1. Učitavanje i parsiranje ulaznih podataka iz vanjske .txt datoteke (podaci su formatirani u dva stupca, odvajamo ih koristeći regex koji prepoznaje whitespace između stupaca)
 2. Odvojene stupce spremamo u dva niza, koje sortiramo da bi ih mogli istovremeno uspoređivati
@@ -29,7 +32,7 @@ Nakon što su analize pokazale da se dvije liste ID-ova lokacija zapravo vrlo ra
 
 U ovom zadatku potrebno je izračunati sličnostni rezultat između obje liste. To se postiže tako da se za svaki broj u lijevoj listi provjeri koliko puta se taj broj pojavljuje u desnoj listi, a zatim se rezultat pomnoži s brojem ponavljanja i zbroji za sve brojeve.
 
-# Rješenje zadatka
+### Rješenje zadatka
 
 1. Učitavanje i parsiranje ulaznih podataka iz vanjske .txt datoteke (podaci su formatirani u dva stupca, odvajamo ih koristeći regex koji prepoznaje whitespace između stupaca)
 2. Odvojene stupce spremamo u dva niza, koje ovaj put ne sortiramo jer brojimo koliko se puta određeni broj pojavljuje, što ne zahtijeva sortiranu listu i štedi vrijeme jer se izbjegnu dvije O(n*log(n)) operacije.
