@@ -1,6 +1,6 @@
 # Day 7: Bridge Repair
 
-Tekst zadatka dostupan je ovdje: https://adventofcode.com/2024/day/5
+Tekst zadatka dostupan je ovdje: https://adventofcode.com/2024/day/7
 
 Primjer formata ulaznih podataka:
 
