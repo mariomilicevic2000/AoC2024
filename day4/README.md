@@ -23,3 +23,15 @@ Mreža je zadana kao niz redova i svaka riječ "XMAS" može biti raspoređena na
 
 ### Rješavanje zadatka
 
+1. Učitavanje podataka iz vanjske .txt datoteke
+2. Dijelimo ulazni string na redove, i u svakom redu mapiramo string na charactere(string s jednim znakom) radi lakšeg iteriranja
+3. Budući da se radi o pravokutnoj osmosmjerci, unaprijed spremamo dimenzije da bi se smanjilo vrijeme izvođenja i ponovno računanje dimenzija
+4. Osmosmjerka ima osam različitih smjerova kako se može pronaći tražena riječ, pa unaprijed složimo listu pomaka po x i y za svaki smjer ("jedinični vektori")
+5. Iteriramo svaki red i u svakom redu svaki stupac, nužan uvjet je naći znak X budući da je tražena riječ "XMAS"
+6. Ako je trenutni znak X, iteriramo kroz sve moguće smjerove, i ako su idući znakovi u tom smjeru "MAS" pribrajamo totalu tu riječ
+
+Vrijeme izvršavanja: 8.75ms
+
+## Part 2
+
+TBD
