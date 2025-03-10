@@ -36,3 +36,5 @@ Zadatak je pronaći najmanji broj sekundi koji mora proći da bi se roboti poslo
 ### Rješavanje zadatka
 
 TBD
+
+1. Zadatak se bazira na simulaciji robota dovoljno koraka dok se ne pokaže uzorak božićnog drvca. Analizom formacija nakon svake sekunde dobija se uzorak u kojem su u jednom trenutku na nekoj liniji blizu sredini poredani u ravnu liniju koja čini bazu krošnje božićnog drvca.
