@@ -46,4 +46,4 @@ Cilj je pronaći najbolji niz promjena koji će rezultirati najvećim brojem ban
 4. Iteriramo kroz sve moguće sekvence i za svaku sekvencu pratimo koliko ukupno banana proizvede. Iteriramo kroz sve liste kupčevih cijena za svakog kupca, i ukoliko pronađemo trenutnu sekvencu u nizu, računamo koliki je profit banana, i spremamo u total, i nastavljamo na idućeg kupca. Ako je sekvenca proizvela više banana nego prošla, spremamo je kao najbolju.
 5. Rješenje zadatka je sekvenca promjena koja proizvodi najveći broj banana
 
-Vrijeme izvršavanja: nepoznato(implementacija sadržava mnogo ugnježđenih petlji te se vjerojatno može poboljšati pametnijom selekcijom sekvenci koje se isplati probati)
+Vrijeme izvršavanja: nepoznato(implementacija sadržava mnogo ugnježđenih petlji te se vjerojatno može poboljšati korištenjem hash mape i pametnijih odabira)
